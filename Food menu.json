@@ -1,0 +1,191 @@
+{
+    "restaurant": {
+      "name": "Gourmet Delight",
+      "address": "123 Culinary Avenue, Foodville, FL 12345",
+      "phone": "(123) 456-7890",
+      "email": "info@gourmetdelight.com",
+      "website": "www.gourmetdelight.com",
+      "hours": {
+        "Monday": "11:00 AM - 10:00 PM",
+        "Tuesday": "11:00 AM - 10:00 PM",
+        "Wednesday": "11:00 AM - 10:00 PM",
+        "Thursday": "11:00 AM - 10:00 PM",
+        "Friday": "11:00 AM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "12:00 PM - 9:00 PM"
+      },
+      "cuisine": "International",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "user": "JohnDoe123",
+          "comment": "Amazing food and great service!",
+          "rating": 5
+        },
+        {
+          "user": "JaneSmith456",
+          "comment": "Loved the ambiance and the variety of dishes.",
+          "rating": 4
+        }
+      ],
+      "menu": {
+        "appetizers": [
+          {
+            "name": "Bruschetta",
+            "description": "Grilled bread topped with diced tomatoes, garlic, and basil.",
+            "price": 8.99,
+            "calories": 150,
+            "ingredients": ["bread", "tomatoes", "garlic", "basil", "olive oil"],
+            "vegetarian": true,
+            "gluten_free": false,
+            "image_url": "www.gourmetdelight.com/images/bruschetta.jpg"
+          },
+          {
+            "name": "Stuffed Mushrooms",
+            "description": "Mushrooms stuffed with cheese and herbs, baked to perfection.",
+            "price": 9.99,
+            "calories": 200,
+            "ingredients": ["mushrooms", "cheese", "herbs"],
+            "vegetarian": true,
+            "gluten_free": true,
+            "image_url": "www.gourmetdelight.com/images/stuffed_mushrooms.jpg"
+          }
+        ],
+        "entrees": [
+          {
+            "name": "Grilled Salmon",
+            "description": "Fresh salmon grilled and served with a side of vegetables.",
+            "price": 18.99,
+            "calories": 450,
+            "ingredients": ["salmon", "vegetables", "lemon"],
+            "vegetarian": false,
+            "gluten_free": true,
+            "image_url": "www.gourmetdelight.com/images/grilled_salmon.jpg"
+          },
+          {
+            "name": "Pasta Primavera",
+            "description": "Pasta with a mix of fresh vegetables in a light sauce.",
+            "price": 15.99,
+            "calories": 600,
+            "ingredients": ["pasta", "vegetables", "olive oil", "garlic"],
+            "vegetarian": true,
+            "gluten_free": false,
+            "image_url": "www.gourmetdelight.com/images/pasta_primavera.jpg"
+          }
+        ],
+        "desserts": [
+          {
+            "name": "Tiramisu",
+            "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+            "price": 6.99,
+            "calories": 300,
+            "ingredients": ["ladyfingers", "coffee", "mascarpone", "cocoa"],
+            "vegetarian": true,
+            "gluten_free": false,
+            "image_url": "www.gourmetdelight.com/images/tiramisu.jpg"
+          },
+          {
+            "name": "Cheesecake",
+            "description": "Creamy cheesecake with a graham cracker crust and berry topping.",
+            "price": 7.99,
+            "calories": 400,
+            "ingredients": ["cream cheese", "graham crackers", "berries"],
+            "vegetarian": true,
+            "gluten_free": false,
+            "image_url": "www.gourmetdelight.com/images/cheesecake.jpg"
+          }
+        ],
+        "beverages": [
+          {
+            "name": "Coffee",
+            "description": "Freshly brewed coffee.",
+            "price": 2.99,
+            "calories": 5,
+            "ingredients": ["coffee beans", "water"],
+            "vegetarian": true,
+            "gluten_free": true,
+            "image_url": "www.gourmetdelight.com/images/coffee.jpg"
+          },
+          {
+            "name": "Lemonade",
+            "description": "Homemade lemonade with fresh lemons.",
+            "price": 3.99,
+            "calories": 100,
+            "ingredients": ["lemons", "water", "sugar"],
+            "vegetarian": true,
+            "gluten_free": true,
+            "image_url": "www.gourmetdelight.com/images/lemonade.jpg"
+          }
+        ]
+      },
+      "services": {
+        "dine_in": true,
+        "takeout": true,
+        "delivery": true,
+        "catering": true,
+        "private_events": true,
+        "online_reservations": true,
+        "wifi": true,
+        "parking": "available"
+      },
+      "special_offers": [
+        {
+          "name": "Happy Hour",
+          "description": "Discounts on drinks and appetizers from 4 PM to 6 PM.",
+          "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+        },
+        {
+          "name": "Weekend Brunch",
+          "description": "Special brunch menu available on weekends from 10 AM to 2 PM.",
+          "days": ["Saturday", "Sunday"]
+        }
+      ],
+      "events": [
+        {
+          "name": "Live Music",
+          "description": "Enjoy live music performances every Friday evening.",
+          "day": "Friday",
+          "time": "7:00 PM - 10:00 PM"
+        },
+        {
+          "name": "Wine Tasting",
+          "description": "Monthly wine tasting event with a selection of fine wines.",
+          "day": "First Saturday of each month",
+          "time": "6:00 PM - 8:00 PM"
+        }
+      ],
+      "staff": [
+        {
+          "name": "Chef Antonio",
+          "position": "Head Chef",
+          "experience": "15 years",
+          "bio": "Chef Antonio has been crafting culinary masterpieces for over a decade, specializing in international cuisine."
+        },
+        {
+          "name": "Maria Gonzalez",
+          "position": "Restaurant Manager",
+          "experience": "10 years",
+          "bio": "Maria ensures that every guest has a memorable dining experience with her exceptional management skills."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Do you have vegetarian options?",
+          "answer": "Yes, we offer a variety of vegetarian dishes on our menu."
+        },
+        {
+          "question": "Do you offer gluten-free options?",
+          "answer": "Yes, we have several gluten-free dishes available."
+        },
+        {
+          "question": "Can I make a reservation online?",
+          "answer": "Yes, you can make a reservation through our website."
+        },
+        {
+          "question": "Do you offer catering services?",
+          "answer": "Yes, we provide catering services for all types of events."
+        }
+      ]
+    }
+  }
+  
