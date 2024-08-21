@@ -59,7 +59,7 @@ else:
             
             generated_text = text_generator(
                 formatted_prompt,
-                max_length=50,  
+                max_length=30,  
                 num_return_sequences=1,
                 eos_token_id=tokenizer.eos_token_id,
                 pad_token_id=tokenizer.pad_token_id,
